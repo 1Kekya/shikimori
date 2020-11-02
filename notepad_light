@@ -1,0 +1,90 @@
+/* Редизайн кнопки свернуть/развернуть */
+.b-edit_styles .edit_style .style_css label, .b-edit_styles .new_style .style_css label {
+    background: var(--color-background-dialog);
+    border-radius: var(--rad);
+    padding: 4px 10px;
+    color: var(--color-text-primary);
+    margin-top: 0px; /* возможно придётся настраивать вручную, что бы добиться эффекта единного интерфейса */
+}
+.b-edit_styles .edit_style .style_css .editor-expand, .b-edit_styles .edit_style .style_css .editor-collapse {
+    color: var(--color-primary);
+    background: var(--color-surface);
+    border-radius: var(--rad);
+    text-transform: uppercase;
+    min-width: 5.5rem;
+    font-size: .875rem !important;
+    padding: 6px 10px;
+    font-weight: 700 !important;
+    border: none;
+}
+.b-edit_styles .edit_style .style_css .editor-collapse:hover, .b-edit_styles .edit_style .style_css .editor-expand:hover {
+    color: var(--color-primary-reduced);
+    transition: 0.16s cubic-bezier(0.4, 0, 0.6, 1);
+}
+/* CSS Редактор */
+.cm-s-solarized.cm-s-light {
+    background-color: var(--color-surface);
+    color: var(--color-text-secondary);
+        text-shadow: 0px 0px 1px #0000004d;
+}
+.b-edit_styles .edit_style .style_css .CodeMirror, .b-edit_styles .new_style .style_css .CodeMirror {
+    border: 1px solid var(--color-background-dialog) !important;
+    border-radius: var(--rad);
+}
+.cm-s-solarized.cm-s-light .CodeMirror-linenumber {
+    color: #858396;
+}
+.cm-searching {
+    background-color: #fafafa30;
+}
+.CodeMirror-search-field {
+    width: 400px !important;
+    background: var(--color-surface) !important;
+    color: #fff !important;
+}
+.cm-s-solarized.cm-s-light div.CodeMirror-selected {
+    background: #00000010;
+}
+.cm-s-solarized .cm-builtin {
+  color: #d33682;
+}
+.cm-s-solarized .cm-def {
+  color: #d92706;
+}
+.cm-s-solarized .cm-string {
+  color: #66a30d;
+}
+.cm-s-solarized .cm-variable-2 {
+  color: #13619c;
+}
+.cm-s-solarized .cm-variable-3 {
+  color: #7626ab;
+}
+.cm-s-solarized .cm-number {
+  color: #139422;
+}
+.cm-s-solarized.cm-s-light .CodeMirror-gutters {
+    background-color: var(--color-surface);
+    border-right: 1px solid var(--color-background-dialog) !important;
+}
+.cm-s-solarized .cm-property {
+  color: #0d8b7f;
+}
+.cm-s-solarized .cm-variable {
+  color: #0d8b7f;
+}
+.cm-s-solarized .cm-tag {
+  color: #e3193b;
+}
+.cm-s-solarized .cm-atom {
+  color: #e91500;
+}
+.cm-s-solarized .cm-keyword {
+  color: #8c39c2;
+}
+.cm-s-solarized .cm-comment {
+  color: #5C7E8C;
+}
+.cm-s-solarized .cm-qualifier {
+  color: #ba8d00;
+}
