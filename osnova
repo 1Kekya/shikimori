@@ -1,0 +1,424 @@
+.p-profiles-show.x1200 .profile-content .c-right>.block:last-child, .p-profiles-show.x1200 .profile-content .c-right>.subcontent:last-child {
+    display: none;
+}
+
+#profiles_show .block {
+    background-color: var(--color-surface);
+    padding: 0 20px 20px 20px;
+    border-radius: 4px;
+    margin-bottom: 0px !important;
+}
+
+.l-page {
+    background-color: var(--color-surface);
+    padding: 20px;
+}
+
+#profiles_show .l-page {
+    background-color: transparent;
+    padding: 20px;
+    padding-bottom: 0;
+}
+@media (max-width: 480px) and (min-width: 320px){
+#profiles_show .l-page {
+    background-color: transparent;
+    padding: 0px;
+    padding-bottom: 0;
+}
+}
+
+#profiles_show .block:last-child {
+    margin-bottom: 0px !important;
+}
+
+
+
+/*=====HEAD=====*/
+.p-profiles .profile-head {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 30px;
+    grid-template-rows: 80px auto;
+    grid-template-areas:
+        'brief history'
+        'info history';
+}
+
+@media (max-width: 959px) and (min-width: 320px){
+.p-profiles .profile-head {
+    display: grid;
+    grid-template-columns: 2.5fr 1.5fr;
+    grid-gap: 10px;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+        'brief brief'
+        'history history'
+        'info info';
+}
+}
+.p-profiles .profile-head::before {
+    display: none;
+}
+/*grafik anime*/
+.p-profiles .profile-head .c-info{
+    background-color: var(--color-surface);
+    float: left;
+    grid-area: info;
+    padding: 0 20px 0 20px;
+    border-radius: 4px;
+}
+/*grafik anime end*/
+
+/*ava and nick*/
+.p-profiles .profile-head .c-brief {
+    height: auto;
+    background-color: var(--color-surface);
+    grid-area: brief;
+    padding: 10px 20px;
+    padding-bottom: 0;
+    border-radius: 4px;
+}
+
+@media (max-width: 959px)  and (min-width: 481px){
+.p-profiles .profile-head .c-brief {
+    padding: 10px 20px;
+    height: 100px;
+}
+}
+@media (max-width: 480px) and (min-width: 320px){
+.p-profiles .profile-head .c-brief {
+    margin: 0;
+    padding-bottom: 10px !important;
+}
+}
+/*button under ava*/
+.p-profiles .profile-head .c-brief .avatar .profile-actions {
+    margin-top: 0px;
+}
+/*button under ava end*/
+/*ava and nick end*/
+
+/*history*/
+.p-profiles .profile-head .c-history.x3 {
+    background-color: var(--color-surface);
+    grid-area: history;
+    margin: 0;
+    width: 100%;
+    padding: 0 20px 0px 20px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.p-profiles .profile-head .c-history .entry::before {
+    right: 0;
+    left: 0;
+}
+
+@media (max-width: 959px) and (min-width: 320px){
+.p-profiles .profile-head .c-history {
+    top: 0;
+    position: relative;
+}
+}
+/*history end*/
+/*=====HEAD END=====*/
+
+
+
+
+
+/*=====CONTENT=====*/
+.profile-content {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 250px 300px 1fr;
+    grid-gap: 30px;
+    grid-template-areas:
+        'cc-2 cc-2'
+        'about achiv'
+        'edit edit';
+}
+
+@media (max-width: 959px) and (min-width: 320px){
+    .profile-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 1fr;
+    grid-gap: 10px;
+    grid-template-areas:
+        'cc-2'
+        'achiv'
+        'edit';
+}
+}
+
+/*=====TIME AND FRIENDS=====*/
+#profiles_show .cc-2.block {
+    background-color: transparent !important;
+    padding: 0 !important;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 250px;
+    grid-column-gap: 30px;
+    grid-template-areas: 'left right';
+    margin-bottom: 0 !important;
+    grid-area: cc-2;
+}
+
+@media (max-width: 959px) and (min-width: 320px){
+    #profiles_show .cc-2.block {
+    grid-column-gap: 10px;
+}
+}
+
+@media (max-width: 768px){
+    #profiles_show .cc-2.block {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: 'left' 'right';
+}
+}
+
+.p-profiles .profile-content>.cc-2 .c-left {
+    position: relative;
+    width: 100%;
+    padding-right: 0px;
+    margin-right: 0;
+    margin-bottom: 0px;
+    z-index: 1;
+    background-color: var(--color-surface);
+    grid-area: left;
+    padding: 0 20px 10px 20px;
+    border-radius: 4px;
+}
+
+.p-profiles .profile-content .graph {
+    height: 100px;
+}
+
+.p-profiles-show .b-stats_bar.lifetime .bar {
+    height: 8px;
+}
+
+.profile-content .lifetime {
+    margin-bottom: 0px;
+}
+
+.p-profiles-show .b-stats_bar.lifetime .cuts .cut {
+    top: -2px;
+    width: 12px;
+    height: 12px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    margin: 0 0 0 -6px;
+}
+
+.p-profiles-show .b-stats_bar.lifetime .cuts .cut::before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border: 4px solid transparent;
+    border-top-color: var(--color-surface);
+    overflow: visible;
+}
+
+.p-profiles-show .b-stats_bar.lifetime .cuts .cut::after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border: 4px solid transparent;
+    border-top-color: var(--color-surface);
+    overflow: visible;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.p-profiles .profile-content>.cc-2 .c-right .cc-2a {
+    width: 100%;
+    height: 100%;
+    padding-left: 0;
+    margin-left: 0;
+    overflow: hidden;
+    margin-bottom: 0 !important;
+    background-color: var(--color-surface);
+    grid-area: right;
+    padding: 0 20px 20px 20px;
+    border-radius: 4px;
+}
+
+.p-profiles .profile-content>.cc-2>.c-column {
+    margin-bottom: 0;
+}
+
+@media (max-width: 959px){
+  .p-profiles .profile-content>.cc-2 .c-right .cc-2a {
+  margin-top:0px;
+  }
+.profile-content .cc-2a>.c-column {
+    width: 100%;
+    margin-right: 0;
+}
+.profile-content .cc-2a>.c-column:last-child {
+    width: 100%;
+    margin-right: 0;
+}
+  .b-clubs.one-line .b-club .logo {
+    display: block;
+    float: left;
+    margin: auto;
+    width: 32px;
+}
+  .about.block {
+    grid-area: about;
+    display:none;
+}
+}
+
+@media (max-width: 768px){
+  .p-profiles .profile-content>.cc-2 .c-right .cc-2a {
+  margin-top:10px;
+  }
+.profile-content .cc-2a>.c-column {
+    width: calc(50% - 10px);
+    margin-right: 20px;
+}
+.profile-content .cc-2a>.c-column:last-child {
+    width: calc(50% - 10px);
+    margin-right: 0;
+}
+  .b-clubs.one-line .b-club .logo {
+    display: block;
+    float: left;
+    margin: auto;
+    width: 32px;
+}
+}
+
+
+/*=====TIME AND FRIENDS END=====*/
+
+
+
+/*=====ACHIVKI=====*/
+.block.achievements{
+    grid-area: achiv;
+}
+
+.cc-3>.c-column:nth-child(1) {
+    grid-area: a;
+}.cc-3>.c-column:nth-child(2) {
+    grid-area: b;
+}.cc-3>.c-column:nth-child(3) {
+    grid-area: c;
+}
+
+.cc-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 0.5fr;
+    grid-gap: 5px;
+    grid-template-areas:
+        'a b'
+        'c c';
+}
+
+.cc-3>.c-column {
+    margin-bottom: 0;
+    margin-right: 0;
+    width: 100%;
+}
+
+.cc-achievements {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 5px;
+    grid-template-areas:
+        'aa'
+        'ab';
+}
+
+.p-profiles-show .achievements .cc-achievements .b-achievement {
+    margin-right: 0;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.p-profiles-show .achievements .cc-achievements .b-achievement:nth-child(1) {
+    grid-area: aa;
+}
+.p-profiles-show .achievements .cc-achievements .b-achievement:nth-child(2) {
+    grid-area: ab;
+}
+.p-profiles-show .achievements .cc-achievements .b-achievement:nth-child(3) {
+    grid-area: ac;
+    display: none;
+}
+.p-profiles-show .achievements .cc-achievements .b-achievement:nth-child(4) {
+    grid-area: ad;
+    display: none;
+}
+
+.cc-franchises {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 5px;
+}
+
+.p-profiles-show .achievements .cc-franchises .b-badge {
+    margin: 0;
+    width: 100%;
+}
+
+.p-profiles-show .achievements .cc-franchises .b-badge:nth-child(4), .p-profiles-show .achievements .cc-franchises .b-badge:nth-child(5), .p-profiles-show .achievements .cc-franchises .b-badge:nth-child(6), .p-profiles-show .achievements .cc-franchises .b-badge:nth-child(7), .p-profiles-show .achievements .cc-franchises .b-badge:nth-child(8), .p-profiles-show .achievements .cc-franchises .b-badge:nth-child(9), .p-profiles-show .achievements .cc-franchises .b-badge:nth-child(10), .p-profiles-show .achievements .cc-franchises .b-badge:nth-child(11), .p-profiles-show .achievements .cc-franchises .b-badge:nth-child(12)  {
+    display: none;
+}
+/*=====ACHIVKI END=====*/
+
+
+
+/*=====OBO MNE=====*/
+.about.block{
+    grid-area: about;
+}
+/*=====OBO MNE END=====*/
+
+
+
+/*=====EDITOR=====*/
+.block:last-child{
+    grid-area: edit;
+}
+  .b-shiki_editor aside.buttons {
+    float: none !important;
+    overflow: scroll;
+    white-space: normal;
+    display: inline-table;
+}
+/*=====EDITOR END=====*/
+/*=====CONTENT END=====*/
+
+/*=====FOOTER=====*/
+.l-footer {
+    margin: 0;
+}
+/*=====FOOTER=====*/
+
+
+
+/*=====box-shadow=====*/
+.p-profiles .profile-head .c-brief, .p-profiles .profile-head .c-info, .p-profiles .profile-head .c-history.x3, .p-profiles .profile-content>.cc-2 .c-left, .p-profiles .profile-content>.cc-2 .c-right .cc-2a, #profiles_show .about.block, #profiles_show .block.achievements, #profiles_show .block:last-child  {
+    box-shadow: 0 0 6px 1px #0000004d;
+}
+
+/*=====box-shadow=====*/
