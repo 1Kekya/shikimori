@@ -42,7 +42,7 @@
 /* Выпадающее меню с новыми эффектами */
 .l-top_menu-v2 .menu-dropdown .submenu {
     height: 0;
-    transition: height .2s linear;
+    transition: height .75s linear;
     pointer-events: none;
 }
 .l-top_menu-v2 .menu-dropdown.active:hover .submenu {
@@ -65,7 +65,7 @@
 
 .l-top_menu-v2 .submenu>a {
     color: var(--color-main);
-    transition: .5s;
+    transition: .75s;
 }
 
 .l-top_menu-v2 .submenu>a:hover {
