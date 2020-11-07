@@ -4,12 +4,12 @@ a {
 }
 // Цвет ссылки при наведении
 a:hover {
-  color: var(--color-link-hover)
+  color: var(--color-hover-link)
 }
 // Цвет ссылки при нажатии
 @media (min-width: 1025px){
   a:active {
-    color: var(--color-link-active)
+    color: var(--color-active-link)
 }
 }
 .b-abuse_request .ban-form .cancel,
@@ -153,7 +153,7 @@ a:hover {
 .b-animes-menu .menu-topics-block a.entry:hover .name,
 .b-animes-menu .menu-topics-block a.entry .name:hover,
 .b-animes-menu .menu-topics-block .history-entry-tooltip .tooltip-details a:hover {
-  color: var(--color-link-hover)
+  color: var(--color-hover-link)
 }
 
 .b-header_filters .filter-line a:active,
@@ -171,7 +171,7 @@ a:hover {
 .midheadline > a:active:before,
 .subheadline > a:active:before,
 .p-anime_videos-index .c-videos .video-variant-switcher.active:hover {
-  color: var(--color-link-active)
+  color: var(--color-active-link)
 }
 @media (min-width: 1025px){
   .b-abuse_request .ban-form .cancel:active,
@@ -248,20 +248,10 @@ a:hover {
   .b-form a.remove:active,
   .b-animes-menu .menu-topics-block a.entry .name:active,
   .b-animes-menu .menu-topics-block .history-entry-tooltip .tooltip-details a:active {
-    color: var(--color-link-active)
+    color: var(--color-active-link)
 }
 }
-.p-contests .match-day > .date,
-.p-animes_collection-index .l-content.ajax_request::before,
-.p-mangas_collection-index .l-content.ajax_request::before,
-.p-recommendations-index .l-content.ajax_request::before,
-.p-userlist_comparer-show .l-content.ajax_request::before,
-.b-ajax:before {
-  background: var(--color-background)
-}
-.l-page:before {
-  outline-color: var(--color-background)
-}
+
 header.head h1,
 header.head h2,
 .b-input input,
@@ -278,7 +268,7 @@ header.head h2,
 .p-contests .match-day .match-link .c-column.loser a,
 .p-contests .match-day .match-link .c-column.created a,
 .p-moderations-missing_videos .missing-video>.info span,
-.p-profiles .profile-head .c-history .entry .title {
+.p-profiles .profile-head .c-history .entry .title, h2, h3, h4, body {
   color: var(--color-text-primary) !important
 }
 
@@ -351,11 +341,11 @@ header.head .misc,
 // PRIMARY COLOR
 .line:nth-child(odd) > .bar-container > .bar,
 .line:nth-child(odd) > .bar-container > .bar:hover {
-  background-color: var(--color-primary)
+  background-color: var(--color-main)
 }
 .b-forums .forum input:checked + .link:before,
 .tooltip-details .ajax-loading {
-  color: var(--color-primary)
+  color: var(--color-main)
 }
 
 // ACCENT COLOR
@@ -379,42 +369,4 @@ html.turbolinks-progress-bar:before,
 .menu .contest,
 .menu:hover .contest {
   color: var(--color-text-on-accent) !important
-}
-
-.b-editable_grid tbody tr:nth-child(odd) td,
-.b-pages,
-.l-page .menu-toggler .toggler,
-.subheadline-input {
-  background: var(--color-surface)
-}
-.editor textarea.b-comment,
-.editor textarea.b-message {
-  background: var(--color-surface) !important
-}
-
-// Области наведения
-.b-forums .forum:hover,
-.b-stats_bar .stat_names:hover:before {
-  background-color: var(--color-overlay-text-hovered)
-}
-
-
-// ЦВЕТ ГРАНИЦ ЭЛЕМЕНТОВ
-.p-contests .match-day:before,
-.p-profiles .profile-head .c-history .entry:before {
-  background-color: var(--color-border)
-}
-
-.b-pages,
-.b-shiki_editor .body .editor textarea,
-.b-tooltipped.dotted,
-.b-topic,
-.l-page .menu-toggler .toggler,
-.p-topics header h1 a.reload,
-.p-topics-new .topic_video,
-.p-topics-edit .topic_video,
-.p-topics-create .topic_video,
-.p-topics-update .topic_video,
-.subheadline-input {
-  border-color: var(--color-border)
 }
