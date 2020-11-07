@@ -1,15 +1,15 @@
 // Цвет текста ссылки по умолчанию
 a {
-  color: var(--color-link)
+  color: var(--color-link);
 }
 // Цвет ссылки при наведении
 a:hover {
-  color: var(--color-hover-link)
+  color: var(--color-hover-link);
 }
 // Цвет ссылки при нажатии
 @media (min-width: 1025px){
   a:active {
-    color: var(--color-active-link)
+    color: var(--color-active-link);
 }
 }
 .b-abuse_request .ban-form .cancel,
@@ -69,7 +69,7 @@ a:hover {
 .p-statistics-index .forum-nav .sections a.selected,
 .b-animes-menu .menu-topics-block a.entry .name,
 .b-animes-menu .menu-topics-block .history-entry-tooltip .tooltip-details a {
-  color: var(--color-link)
+  color: var(--color-link);
 }
 
 .b-abuse_request .ban-form .cancel:hover,
@@ -153,7 +153,7 @@ a:hover {
 .b-animes-menu .menu-topics-block a.entry:hover .name,
 .b-animes-menu .menu-topics-block a.entry .name:hover,
 .b-animes-menu .menu-topics-block .history-entry-tooltip .tooltip-details a:hover {
-  color: var(--color-hover-link)
+  color: var(--color-hover-link);
 }
 
 .b-header_filters .filter-line a:active,
@@ -171,7 +171,7 @@ a:hover {
 .midheadline > a:active:before,
 .subheadline > a:active:before,
 .p-anime_videos-index .c-videos .video-variant-switcher.active:hover {
-  color: var(--color-active-link)
+  color: var(--color-active-link);
 }
 @media (min-width: 1025px){
   .b-abuse_request .ban-form .cancel:active,
@@ -248,7 +248,7 @@ a:hover {
   .b-form a.remove:active,
   .b-animes-menu .menu-topics-block a.entry .name:active,
   .b-animes-menu .menu-topics-block .history-entry-tooltip .tooltip-details a:active {
-    color: var(--color-active-link)
+    color: var(--color-active-link);
 }
 }
 
@@ -269,7 +269,7 @@ header.head h2,
 .p-contests .match-day .match-link .c-column.created a,
 .p-moderations-missing_videos .missing-video>.info span,
 .p-profiles .profile-head .c-history .entry .title, h2, h3, h4, body {
-  color: var(--color-text-primary) !important
+  color: var(--color-text-primary) !important;
 }
 
 // Цвет основного текста в области при наведении
@@ -281,7 +281,7 @@ header.head h2,
 .b-clubs-menu .actions .leave a:hover,
 .b-forums .forum:hover .link-with-input .link,
 .p-profiles .profile-head .c-history .entry:hover .title {
-  color: var(--color-text-primary) !important
+  color: var(--color-text-primary) !important;
 }
 
 header.head .notice,
@@ -296,7 +296,7 @@ header.head .notice,
 .b-stats_bar .stat_names:hover:before,
 .p-contests .match-day > .date .from,
 .p-contests .match-day > .date .to {
-  color: var(--color-text-secondary)
+  color: var(--color-text-secondary);
 }
 
 .midheadline,
@@ -312,13 +312,13 @@ header.head .notice,
 .p-contests .rating .member .position,
 .p-db_entries-edit .b-list .field,
 .p-profiles .profile-head .c-info .c-additionals b {
-  color: var(--color-text-hint)
+  color: var(--color-text-hint);
 }
 .b-db_entry > .c-about .additional-links .key,
 .p-profiles .profile-head .c-history .entry .misc,
 .p-profiles-show .lifetime .title > .label:before,
 .p-profiles-show .profile-content .activity .title {
-  color: var(--color-text-hint) !important
+  color: var(--color-text-hint) !important;
 }
 
 header.head a.edit,
@@ -332,20 +332,20 @@ header.head .misc,
 .p-profiles .profile-head .c-brief header .notice span:after,
 .p-profiles .profile-head .c-info .c-additionals div:after,
 .p-statistics-index .forum-nav .sections a:after {
-  color: var(--color-text-disabled)
+  color: var(--color-text-disabled);
 }
 .p-profiles .profile-head .c-history .entry .misc.date {
-  color: var(--color-text-disabled) !important
+  color: var(--color-text-disabled) !important;
 }
 
 // PRIMARY COLOR
 .line:nth-child(odd) > .bar-container > .bar,
 .line:nth-child(odd) > .bar-container > .bar:hover {
-  background-color: var(--color-main)
+  background-color: var(--color-main);
 }
 .b-forums .forum input:checked + .link:before,
 .tooltip-details .ajax-loading {
-  color: var(--color-main)
+  color: var(--color-main);
 }
 
 // ACCENT COLOR
@@ -353,20 +353,20 @@ header.head .misc,
 .menu .entry:hover .unread-count,
 .menu .contest,
 .menu .entry:hover .contest {
-  background-color: var(--color-accent)
+  background-color: var(--color-accent);
 }
 .menu .unread-count:hover,
 .menu .contest:hover {
-  background-color: var(--color-accent) !important
+  background-color: var(--color-accent) !important;
 }
 html.turbolinks-progress-bar:before,
 .turbolinks.turbolinks-progress-bar::before {
-  background: var(--color-accent) !important
-  box-shadow: 0 0 10px var(--color-accent) !important
+  background: var(--color-accent) !important;
+  box-shadow: 0 0 10px var(--color-accent) !important;
 }
 .menu .unread-count,
 .menu:hover .unread-count,
 .menu .contest,
 .menu:hover .contest {
-  color: var(--color-text-on-accent) !important
+  color: var(--color-text-on-accent) !important;
 }
