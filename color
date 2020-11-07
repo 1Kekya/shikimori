@@ -1,0 +1,420 @@
+// Цвет текста ссылки по умолчанию
+a {
+  color: var(--color-link)
+}
+// Цвет ссылки при наведении
+a:hover {
+  color: var(--color-link-hover)
+}
+// Цвет ссылки при нажатии
+@media (min-width: 1025px){
+  a:active {
+    color: var(--color-link-active)
+}
+}
+.b-abuse_request .ban-form .cancel,
+.b-bb_codes-examples .example a,
+.b-bb_codes-examples .result a,
+.b-bracket-actions > div,
+.b-bracket-actions > span,
+.b-cosplay-topic > .inner .cosplay-info .line .value a,
+.b-cosplay_gallery h3 a,
+.b-db_entry > .c-about .additional-links .line-container > .link,
+.b-db_entry > .c-about .additional-links .line-container > a,
+.b-feedback-inner .about a,
+.b-form .variants .variant a,
+.b-forums .forum .link-with-input .link,
+.b-forums .reload,
+.b-header_filters .filter-line a,
+.b-js-action,
+.b-js-link,
+.b-link,
+.b-person .name,
+.b-topic .footer-vote .vote-group .vote,
+.b-user.named_avatar .name,
+.subheadline .misc-link,
+.b-animes-menu .menu-topics-block .history-entry-tooltip a,
+.p-animes-files .l-content a,
+.p-mangas-files .l-content a,
+.p-contests-edit .grid,
+.p-contests .match-day .match-link a,
+.p-contests .rating .member a,
+.p-contests .results a,
+.p-contests .suggestion > a,
+.p-contests .variant > a,
+.b-contests-menu .results,
+.b-contests-menu .grid a,
+.p-contests-grid .round .match a,
+.p-contests-index .contest a,
+.p-dashboards .c-my_list .list-type > .title .link,
+.p-dashboards .c-my_list .history > .title .link,
+.p-dashboards .c-my_list .list-type > .title .switch,
+.p-dashboards .c-my_list .history > .title .switch,
+.p-dashboards .user_list .list-type > .title .link,
+.p-dashboards .user_list .history > .title .link,
+.p-dashboards .user_list .list-type > .title .switch,
+.p-dashboards .user_list .history > .title .switch,
+.p-dashboards-show .midheadline .b-link,
+.p-dashboards-show .c-content .options .option,
+.p-db_entries-edit_field .cc-genres > .c-all_genres .genre:not(.included) .name,
+.p-profiles .profile-head .c-brief header .notice a,
+.p-profiles .profile-head .c-mobile-actions a,
+.p-profiles .profile-head .c-mobile-actions span,
+.p-profiles .profile-head .c-info .c-additionals div a,
+.p-profiles-edit .list .profile-action a:not(.b-button),
+.p-profiles-show .about a,
+.p-studios .studio .name,
+.p-translations .animes a,
+.b-log_entry .comment-block ins,
+.p-statistics-index .forum-nav .sections a.selected,
+.b-animes-menu .menu-topics-block a.entry .name,
+.b-animes-menu .menu-topics-block .history-entry-tooltip .tooltip-details a {
+  color: var(--color-link)
+}
+
+.b-abuse_request .ban-form .cancel:hover,
+.b-bb_codes-examples .example a:hover,
+.b-bb_codes-examples .result a:hover,
+.b-bracket-actions > div:hover,
+.b-bracket-actions > span:hover,
+.b-cosplay-topic > .inner .cosplay-info .line .value a:hover,
+.b-cosplay_gallery h3 a:hover,
+.b-db_entry > .c-about .additional-links .line-container > .link:hover,
+.b-db_entry > .c-about .additional-links .line-container > a:hover,
+.b-feedback-inner .about a:hover,
+.b-form .variants .variant a:hover,
+.b-forums .forum .link-with-input .link:hover,
+.b-forums .reload:hover,
+.b-header_filters .filter-line a:hover,
+.b-js-action:hover,
+.b-js-link:hover,
+.b-link:hover,
+.b-person .name:hover,
+.b-topic .footer-vote .vote-group .vote:hover,
+.b-user.named_avatar .name:hover,
+.subheadline .misc-link:hover,
+.b-animes-menu .menu-topics-block .history-entry-tooltip a:hover,
+.p-animes-files .l-content a:hover,
+.p-mangas-files .l-content a:hover,
+.p-contests-edit .grid:hover,
+.p-contests .match-day .match-link a:hover,
+.p-contests .rating .member a:hover,
+.p-contests .results a:hover,
+.p-contests .suggestion > a:hover,
+.p-contests .variant > a:hover,
+.b-contests-menu .results:hover,
+.b-contests-menu .grid a:hover,
+.p-contests-grid .round .match a:hover,
+.p-contests-index .contest a:hover,
+.p-dashboards .c-my_list .list-type > .title .link:hover,
+.p-dashboards .c-my_list .history > .title .link:hover,
+.p-dashboards .c-my_list .list-type > .title .switch:hover,
+.p-dashboards .c-my_list .history > .title .switch:hover,
+.p-dashboards .user_list .list-type > .title .link:hover,
+.p-dashboards .user_list .history > .title .link:hover,
+.p-dashboards .user_list .list-type > .title .switch:hover,
+.p-dashboards .user_list .history > .title .switch:hover,
+.p-dashboards-show .midheadline .b-link:hover,
+.p-dashboards-show .c-content .options .option:hover,
+.p-dashboards-show .c-content .options .option.selected,
+.p-db_entries-edit_field .cc-genres > .c-all_genres .genre:not(.included) .name:hover,
+.p-profiles .profile-head .c-brief header .notice a:hover,
+.p-profiles .profile-head .c-mobile-actions a:hover,
+.p-profiles .profile-head .c-mobile-actions span:hover,
+.p-profiles .profile-head .c-info .c-additionals div a:hover,
+.p-profiles-edit .list .profile-action a:not(.b-button):hover,
+.p-profiles-show .about a:hover,
+.p-studios .studio .name:hover,
+.p-translations .animes a:hover,
+.p-statistics-index .forum-nav .sections a:hover,
+.b-comment > .inner .was_updated:hover,
+.b-comment header .hash:hover,
+.b-dialog > .inner .was_updated:hover,
+.b-message > .inner .was_updated:hover,
+.b-topic > .inner .was_updated:hover,
+.headline > a:hover:before,
+.midheadline > a:hover:before,
+.subheadline > a:hover:before,
+.headline.linkheadline > a:hover,
+.linkheadline.midheadline > a:hover,
+.linkheadline.subheadline > a:hover,
+.headline.linkheadline > a:hover:before,
+.linkheadline.midheadline > a:hover:before,
+.linkheadline.subheadline > a:hover:before,
+.p-animes-franchise .sticky-tooltip .close:hover,
+.p-mangas-franchise .sticky-tooltip .close:hover,
+.p-contests .match-day .match-link.voted-none > .c-column a:hover,
+.p-contests .match-day .match-link.voted-left > .c-column:last-child a:hover,
+.p-contests .match-day .match-link.voted-right > .c-column:first-child a:hover,
+.p-contests .match-day .match-link .c-column.loser a:hover,
+.p-contests .match-day .match-link .c-column.created a:hover,
+.p-contests-grid .round .match .date a:hover,
+.p-topics header h1 a.reload:hover,
+.b-animes-menu .menu-topics-block a.entry:hover .name,
+.b-animes-menu .menu-topics-block a.entry .name:hover,
+.b-animes-menu .menu-topics-block .history-entry-tooltip .tooltip-details a:hover {
+  color: var(--color-link-hover)
+}
+
+.b-header_filters .filter-line a:active,
+.b-person .name:active,
+.b-animes-menu .menu-topics-block .history-entry-tooltip a:active,
+.p-animes-files .l-content a:active,
+.p-mangas-files .l-content a:active,
+.p-dashboards-show .midheadline .b-link:active,
+.p-dashboards-show .c-content .options .option:active,
+.p-profiles .profile-head .c-brief header .notice a:active,
+.p-profiles .profile-head .c-mobile-actions a:active,
+.p-profiles .profile-head .c-mobile-actions span:active,
+.p-profiles .profile-head .c-info .c-additionals div a:active,
+.headline > a:active:before,
+.midheadline > a:active:before,
+.subheadline > a:active:before,
+.p-anime_videos-index .c-videos .video-variant-switcher.active:hover {
+  color: var(--color-link-active)
+}
+@media (min-width: 1025px){
+  .b-abuse_request .ban-form .cancel:active,
+  .b-bb_codes-examples .example a:active,
+  .b-bb_codes-examples .result a:active,
+  .b-bracket-actions > div:active,
+  .b-bracket-actions > span:active,
+  .b-cosplay-topic > .inner .cosplay-info .line .value a:active,
+  .b-cosplay_gallery h3 a:active,
+  .b-db_entry > .c-about .additional-links .line-container > .link:active,
+  .b-db_entry > .c-about .additional-links .line-container > a:active,
+  .b-feedback-inner .about a:active,
+  .b-form .variants .variant a:active,
+  .b-forums .forum .link-with-input .link:active,
+  .b-forums .reload:active,
+  .b-header_filters .filter-line a:active,
+  .b-js-action:active,
+  .b-js-link:active,
+  .b-link:active,
+  .b-topic .footer-vote .vote-group .vote:active,
+  .b-user.named_avatar .name:active,
+  .subheadline .misc-link:active,
+  .p-contests-edit .grid:active,
+  .p-contests .match-day .match-link a:active,
+  .p-contests .rating .member a:active,
+  .p-contests .results a:active,
+  .p-contests .suggestion > a:active,
+  .p-contests .variant > a:active,
+  .b-contests-menu .results:active,
+  .b-contests-menu .grid a:active,
+  .p-contests-grid .round .match a:active,
+  .p-contests-index .contest a:active,
+  .p-dashboards .c-my_list .list-type > .title .link:active,
+  .p-dashboards .c-my_list .history > .title .link:active,
+  .p-dashboards .c-my_list .list-type > .title .switch:active,
+  .p-dashboards .c-my_list .history > .title .switch:active,
+  .p-dashboards .user_list .list-type > .title .link:active,
+  .p-dashboards .user_list .history > .title .link:active,
+  .p-dashboards .user_list .list-type > .title .switch:active,
+  .p-dashboards .user_list .history > .title .switch:active,
+  .p-dashboards-show .midheadline .b-link:active,
+  .p-dashboards-show .c-content .options .option:active,
+  .p-db_entries-edit_field .cc-genres > .c-all_genres .genre:not(.included) .name:active,
+  .p-profiles .profile-head .c-brief header .notice a:active,
+  .p-profiles .profile-head .c-mobile-actions a:active,
+  .p-profiles .profile-head .c-mobile-actions span:active,
+  .p-profiles .profile-head .c-info .c-additionals div a:active,
+  .p-profiles-edit .list .profile-action a:not(.b-button):active,
+  .p-profiles-show .about a:active,
+  .p-studios .studio .name:active,
+  .p-translations .animes a:active,
+  .p-statistics-index .forum-nav .sections a:active,
+  .b-comment > .inner .was_updated:active,
+  .b-comment header .hash:active,
+  .b-dialog > .inner .was_updated:active,
+  .b-message > .inner .was_updated:active,
+  .b-topic > .inner .was_updated:active,
+  .headline.linkheadline > a:active,
+  .linkheadline.midheadline > a:active,
+  .linkheadline.subheadline > a:active,
+  .headline.linkheadline > a:active:before,
+  .linkheadline.midheadline > a:active:before,
+  .linkheadline.subheadline > a:active:before,
+  .p-animes-franchise .sticky-tooltip .close:active,
+  .p-mangas-franchise .sticky-tooltip .close:active,
+  .p-contests .match-day .match-link.voted-none > .c-column a:active,
+  .p-contests .match-day .match-link.voted-left > .c-column:last-child a:active,
+  .p-contests .match-day .match-link.voted-right > .c-column:first-child a:active,
+  .p-contests .match-day .match-link .c-column.loser a:active,
+  .p-contests .match-day .match-link .c-column.created a:active,
+  .p-contests-grid .round .match .date a:active,
+  .p-topics header h1 a.reload:active,
+  .b-bracket-details:active,
+  .b-form a.remove:active,
+  .b-animes-menu .menu-topics-block a.entry .name:active,
+  .b-animes-menu .menu-topics-block .history-entry-tooltip .tooltip-details a:active {
+    color: var(--color-link-active)
+}
+}
+.p-contests .match-day > .date,
+.p-animes_collection-index .l-content.ajax_request::before,
+.p-mangas_collection-index .l-content.ajax_request::before,
+.p-recommendations-index .l-content.ajax_request::before,
+.p-userlist_comparer-show .l-content.ajax_request::before,
+.b-ajax:before {
+  background: var(--color-background)
+}
+.l-page:before {
+  outline-color: var(--color-background)
+}
+header.head h1,
+header.head h2,
+.b-input input,
+.b-input textarea,
+.b-shiki_editor .body .editor textarea,
+.subheadline-input,
+.b-forums .forum .link-with-input .link,
+.b-modal .subheadline,
+.b-pages .b-link,
+.headline,
+.p-contests .match-day .match-link.voted-none > .c-column a,
+.p-contests .match-day .match-link.voted-left > .c-column:last-child a,
+.p-contests .match-day .match-link.voted-right > .c-column:first-child a,
+.p-contests .match-day .match-link .c-column.loser a,
+.p-contests .match-day .match-link .c-column.created a,
+.p-moderations-missing_videos .missing-video>.info span,
+.p-profiles .profile-head .c-history .entry .title {
+  color: var(--color-text-primary) !important
+}
+
+// Цвет основного текста в области при наведении
+.b-clubs-menu .b-link:hover,
+.b-clubs-menu .actions li:hover,
+.b-clubs-menu .actions .upload label:hover,
+.b-clubs-menu .actions .invite span:hover,
+.b-clubs-menu .actions .join a:hover,
+.b-clubs-menu .actions .leave a:hover,
+.b-forums .forum:hover .link-with-input .link,
+.p-profiles .profile-head .c-history .entry:hover .title {
+  color: var(--color-text-primary) !important
+}
+
+header.head .notice,
+.bar.horizontal .line .x_label,
+.bar.vertical .line .x_label,
+.b-contest_match .vs .hint,
+.b-contest_match .vs .invitation,
+.b-contest_match .vs .label,
+.b-contest_match .vs .thanks,
+.b-contest_match .vs .vote-abstained,
+.b-contest_match .vs .vote-voted,
+.b-stats_bar .stat_names:hover:before,
+.p-contests .match-day > .date .from,
+.p-contests .match-day > .date .to {
+  color: var(--color-text-secondary)
+}
+
+.midheadline,
+.subheadline,
+.b-animes-menu .menu-topics-block .date,
+.b-forums .forum .link-with-input input + .link,
+.b-forums .forum .topics,
+.b-log_entry .state.auto_accepted,
+.b-pages .title,
+.b-stats_bar .stat_names:before,
+.p-contests .b-contest_match .vs,
+.p-contests .match-day .matches-num,
+.p-contests .rating .member .position,
+.p-db_entries-edit .b-list .field,
+.p-profiles .profile-head .c-info .c-additionals b {
+  color: var(--color-text-hint)
+}
+.b-db_entry > .c-about .additional-links .key,
+.p-profiles .profile-head .c-history .entry .misc,
+.p-profiles-show .lifetime .title > .label:before,
+.p-profiles-show .profile-content .activity .title {
+  color: var(--color-text-hint) !important
+}
+
+header.head a.edit,
+header.head .misc,
+.b-db_entry > .c-about .additional-links .line-container > a:after,
+.b-db_entry > .c-about .additional-links .line-container > .link:after,
+.p-contests-index .contest .date,
+.p-moderations-missing_videos .missing-video > .info,
+.p-moderations-show .b-list .size:after,
+.p-moderations-show .b-list .size:before,
+.p-profiles .profile-head .c-brief header .notice span:after,
+.p-profiles .profile-head .c-info .c-additionals div:after,
+.p-statistics-index .forum-nav .sections a:after {
+  color: var(--color-text-disabled)
+}
+.p-profiles .profile-head .c-history .entry .misc.date {
+  color: var(--color-text-disabled) !important
+}
+
+// PRIMARY COLOR
+.line:nth-child(odd) > .bar-container > .bar,
+.line:nth-child(odd) > .bar-container > .bar:hover {
+  background-color: var(--color-primary)
+}
+.b-forums .forum input:checked + .link:before,
+.tooltip-details .ajax-loading {
+  color: var(--color-primary)
+}
+
+// ACCENT COLOR
+.menu .unread-count,
+.menu .entry:hover .unread-count,
+.menu .contest,
+.menu .entry:hover .contest {
+  background-color: var(--color-accent)
+}
+.menu .unread-count:hover,
+.menu .contest:hover {
+  background-color: var(--color-accent) !important
+}
+html.turbolinks-progress-bar:before,
+.turbolinks.turbolinks-progress-bar::before {
+  background: var(--color-accent) !important
+  box-shadow: 0 0 10px var(--color-accent) !important
+}
+.menu .unread-count,
+.menu:hover .unread-count,
+.menu .contest,
+.menu:hover .contest {
+  color: var(--color-text-on-accent) !important
+}
+
+.b-editable_grid tbody tr:nth-child(odd) td,
+.b-pages,
+.l-page .menu-toggler .toggler,
+.subheadline-input {
+  background: var(--color-surface)
+}
+.editor textarea.b-comment,
+.editor textarea.b-message {
+  background: var(--color-surface) !important
+}
+
+// Области наведения
+.b-forums .forum:hover,
+.b-stats_bar .stat_names:hover:before {
+  background-color: var(--color-overlay-text-hovered)
+}
+
+
+// ЦВЕТ ГРАНИЦ ЭЛЕМЕНТОВ
+.p-contests .match-day:before,
+.p-profiles .profile-head .c-history .entry:before {
+  background-color: var(--color-border)
+}
+
+.b-pages,
+.b-shiki_editor .body .editor textarea,
+.b-tooltipped.dotted,
+.b-topic,
+.l-page .menu-toggler .toggler,
+.p-topics header h1 a.reload,
+.p-topics-new .topic_video,
+.p-topics-edit .topic_video,
+.p-topics-create .topic_video,
+.p-topics-update .topic_video,
+.subheadline-input {
+  border-color: var(--color-border)
+}
