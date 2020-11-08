@@ -1,3 +1,68 @@
+/* Стена постеров различных типов */
+@import url(https://css-club.web.app/css/rate_module.min.css);
+/* Фиксированный размер обложек */
+@import url(https://css-club.web.app/css/fixed_cover.min.css);
+
+/* znachki */
+@import url(https://gist.githubusercontent.com/1Kekya/27d64634807120195de8070c476a703c/raw/1caa6e726e262004d641f618a35822ede6505ea8/znak);
+
+/* header */
+@import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/header);
+
+/* color */
+@import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/color_text);
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+
+
+
+
+/* редизайн */
+@media only screen and (min-width: 768px) {
+  .p-profiles-show .profile-content .cc-2 > .c-column {
+    width: 100%;
+  }
+
+  .p-profiles-show .profile-content .cc-2 > .c-left {
+    position: relative;
+    width: 77%;
+    padding-right: 30px;
+    margin-right: 0;
+    z-index: 1;
+  }
+
+  .p-profiles-show .lifetime {
+    margin-bottom: 15px;
+  }
+
+  .p-profiles-show .profile-content .cc-2 > .c-right {
+    float: none;
+  }
+
+  .p-profiles-show .profile-content .cc-2 > .c-right .cc-2a {
+    width: 23%;
+    overflow: hidden;
+  }
+
+  .p-profiles-show .profile-content .cc-2 > .c-right .cc-2a > .c-column {
+    width: 100%;
+    margin: 0;
+  }
+
+  .p-profiles-show .profile-content .cc-2 > .c-right .cc-2a > .c-column:last-child {
+    margin-top: 15px;
+  }
+
+  .p-profiles-show .profile-content .cc-2 > .c-right > .block:last-child {
+    clear: both;
+  }
+}
+/* редизайн */
+
+
+
+
+
 body {
     background: var(--color-background);
 }
@@ -81,6 +146,49 @@ img {
 
 
 
+/* изменение заголовков */
+.p-profiles .lifetime .title>.label::before {
+    content: 'Активность';
+    display: block;
+    font-size: 13px;
+    line-height: 1.65;
+}
+
+.p-profiles-show[data-locale='ru'] .profile-content .activity .title::after {
+    content: 'График активности';
+    font-size: 13px;
+    line-height: 1.65;
+}
+
+.p-profiles .lifetime .title>.label {
+    font-size: 0;
+    line-height: 0;
+}
+
+.p-profiles-show[data-locale='ru'] .profile-content .activity .title {
+    font-size: 0;
+    line-height: 0;
+}
+
+.b-stats_bar .title {
+    color: var(--color-text-hint);
+}
+
+.p-profiles .profile-head .c-info .c-additionals b::after {
+    content: 'Активность на сайте:';
+    font-size: 13px;
+}
+
+.p-profiles .profile-head .c-info .c-additionals b {
+    font-size: 0;
+}
+/* изменение заголовков */
+
+
+
+
+
+
 
 /* profile-head*/
 
@@ -114,7 +222,37 @@ img {
 }
 
 
-		.p-profiles .profile-head .c-brief .avatar {
+
+
+.p-profiles .profile-head .c-brief .avatar:hover .profile-actions {
+    visibility: visible;
+    top: 0;
+}
+.p-profiles .profile-head .c-brief .avatar .profile-actions {
+    margin-top: 5px;
+    text-align: center;
+    visibility: hidden;
+    transition: .5s;
+    position: relative;
+    top: -40px;
+}
+
+.c-brief .avatar img {
+    position: relative;
+    top: 30px;
+    transition: .5s;
+    z-index: 1;
+}
+
+.c-brief .avatar:hover img {
+    top: 0px;
+}
+
+
+
+
+
+.p-profiles .profile-head .c-brief .avatar {
 	        flex-shrink: 0;
 		    align-self: flex-end;
             margin: 0px 20px 0px 0;
@@ -442,3 +580,259 @@ img {
 .block:last-child {
     margin-bottom: 0 !important;
 }
+
+
+
+
+.headline:hover, .midheadline:hover, .subheadline:hover {
+    background: var(--headline-background-color-hover);
+}
+
+
+
+
+/* кнопки настроек*/
+.b-options-floated {
+    font-size: 11px;
+    line-height: 12px;
+    position: absolute;
+    right: 0px;
+    top: -20px;
+    z-index: 1;
+    margin-top: 0 !important;
+}
+
+.b-options-floated a:after, .b-options-floated .link:after{
+    display: none;
+}
+
+.b-options-floated a, .b-options-floated .link {
+    color: var(--link-color);
+    background-color: var(--color-background);
+    padding: 5px 6px;
+    margin-left: 5px;
+    border-radius: var(--br);
+}
+
+.b-options-floated .selected {
+    color: var(--color-menu);
+    background-color: var(--color-main);
+}
+/* кнопки настроек*/
+
+
+
+
+/* редизайн блокнота*/
+.cm-s-solarized.cm-s-light {
+    background-color: var(--color-background);
+    color: var(--color-text-secondary);
+    text-shadow: var(--color-menu) 0 1px;
+    border-radius: var(--br);
+    border-top-left-radius: 0;
+}
+
+.b-edit_styles .edit_style .style_css .CodeMirror, .b-edit_styles .new_style .style_css .CodeMirror {
+    border: 0;
+}
+
+.CodeMirror-gutter{
+    background-color: var(--color-background);
+    border-right: 1px solid var(--color-menu);
+}
+
+.cm-s-solarized.cm-s-light div.CodeMirror-selected {
+    background: var(--color-main-10);
+}
+/* редизайн блокнота*/
+
+
+
+/*комменты*/
+.b-quote {
+    background: var(--color-background);
+    border: 1px solid var(--color-border);
+    color: var(--color-text-secondary);
+    border-radius: var(--br);
+    font-style: italic;
+    margin: 5px 0 5px 5px;
+    overflow: hidden;
+    padding: 5px 10px;
+}
+
+.b-comment {
+    border-top: 1px solid var(--color-border);
+}
+
+.b-comment>.inner .body {
+    overflow: visible;
+}
+
+
+
+/* подсказка */
+.tipsy{
+  padding: 10px;
+  font-size: 12px;
+  opacity: .9 !important;
+  pointer-events: none;
+}
+.tipsy-arrow{
+  display: none;
+}
+.tipsy-inner{
+  padding: 5px 10px;
+  background-color: var(--color-background);
+  border-radius: var(--br);
+  box-shadow: none;
+  color: #eee;
+  text-align: left;
+}
+/* подсказка */
+
+
+
+
+/* всплывающее окно аниме, манга и т.д. */
+.b-tag {
+    border: 1px solid var(--color-border) !important;
+    color: var(--color-text-secondary);
+    padding: 0px 3px !important;
+    margin: 0px 1px !important;
+    border-radius: var(--br);
+}
+
+.b-tag:hover {
+    background-color: var(--color-main) !important;
+}
+
+.tooltip-inner .close {
+    background: var(--color-menu);
+}
+
+.tooltip-inner .close:hover {
+    color: red;
+}
+
+span.b-anime_status_tag {
+    border-radius: var(--br);
+    margin: 0px 1px;
+}
+
+.tooltip-inner {
+    min-height: 3.5rem!important;
+    padding: 1rem!important;
+    background: var(--color-menu)!important;
+    border: 0!important;
+    border-radius: 2px;
+    box-shadow: 0 4px 10px 2px rgba(0,0,0,0.24);
+    color: var(--color-text-primary) !important;
+    font-size: .875em;!important
+    overflow: hidden;
+}
+.tooltip-inner {
+    background: #F7F7F7;
+    background: none repeat scroll 0 0 white;
+    border: 1px solid #999999;
+    color: #333333;
+    font-size: 13px;
+    height: auto !important;
+    margin-top: 4px;
+    min-height: 120px;
+    padding: 10px;
+    position: absolute;
+    width: 480px;
+    z-index: 2;
+}
+
+.tooltip-arrow {
+    display: none;
+}
+/* всплывающее окно аниме, манга и т.д. */
+
+
+
+
+
+/* Кнопки и спойлер*/
+.b-form input[type=submit], .b-button, .b-poll .poll-actions .vote, .b-poll .poll-actions .abstain {
+    background-color: var(--color-main);
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    line-height: 24px;
+    transition: .2s;
+}
+
+.b-form input[type=submit]:focus, .b-button:focus, .b-poll .poll-actions .vote:focus, .b-poll .poll-actions .abstain:focus, .b-spoiler_block>span:focus { 
+    outline: none !important;
+    background-color: var(--color-main-active);
+}
+
+.b-form input[type=submit]:hover, .b-button:hover, .b-poll .poll-actions .vote:hover, .b-poll .poll-actions .abstain:hover, .b-spoiler_block>span:hover {
+    background-color: var(--color-main-hover);
+}
+
+.b-form input[type=submit]:active, .b-button:active, .b-poll .poll-actions .vote:active, .b-poll .poll-actions .abstain:active, .b-spoiler_block>span:active {
+    background-color: var(--color-main-active);
+}
+
+.b-spoiler_block>span{
+    background-color: var(--color-main);
+    border-radius: 4px;
+    line-height: 24px;
+    transition: .2s;
+}
+
+.b-spoiler_block.is-opened>span {
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.b-spoiler_block>div {
+    background-color: var(--color-background);
+    border-left: 0;
+    border: 1px solid var(--color-main);
+    border-radius: var(--br);
+    border-top-left-radius: 0;
+    padding: 3px 3px 3px 14px;
+}
+/* Кнопки и спойлер*/
+
+
+
+/* скроллбар */
+body::-webkit-scrollbar-button:vertical:start {
+    height: 50px;
+    background-color: var(--color-main);
+    box-shadow: 0 3px 12px 2px rgba(0, 0, 0, .2);
+}
+
+::-webkit-scrollbar-track{
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: var(--color-main-hover)
+}
+::-webkit-scrollbar-thumb:active{
+    background-color: var(--color-main-active)
+}
+::-webkit-scrollbar-thumb {
+    width: 10px;
+    height: 10px;
+    background-color: var(--color-main);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-corner {
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+}    
+/* скроллбар */
