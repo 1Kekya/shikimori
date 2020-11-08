@@ -1,5 +1,0 @@
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
-
-header.head h1, header.head h2 {
-    font-family: 'M PLUS Rounded 1c', sans-serif !important;
-}
