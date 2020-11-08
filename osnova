@@ -1,19 +1,4 @@
-/* Стена постеров различных типов */
-@import url(https://css-club.web.app/css/rate_module.min.css);
-/* Фиксированный размер обложек */
-@import url(https://css-club.web.app/css/fixed_cover.min.css);
 
-/* znachki */
-@import url(https://gist.githubusercontent.com/1Kekya/27d64634807120195de8070c476a703c/raw/1caa6e726e262004d641f618a35822ede6505ea8/znak);
-
-/* header */
-@import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/header);
-
-/* color */
-@import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/color_text);
-
-/*fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Open+Sans&display=swap');
 
 
 
