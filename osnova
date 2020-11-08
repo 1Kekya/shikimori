@@ -12,7 +12,8 @@
 /* color */
 @import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/color_text);
 
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Open+Sans&display=swap');
 
 
 
