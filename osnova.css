@@ -570,9 +570,7 @@ img {
 
 
 
-.headline:hover, .midheadline:hover, .subheadline:hover {
-    background: var(--headline-background-color-hover);
-}
+
 
 
 
@@ -822,3 +820,21 @@ body::-webkit-scrollbar-button:vertical:start {
     background-color: transparent;
 }    
 /* скроллбар */
+
+
+/* писать */
+.b-shiki_editor .body .editor textarea {
+    background-color: var(--color-menu);
+    border-top: 1px solid var(--color-border) !important;
+    border-bottom: 1px solid var(--color-border) !important;
+    border: 0;
+    border-radius: var(--br);
+    -webkit-border-radius: var(--br);
+    max-height: 417px;
+    min-height: 31px;
+}
+/* писать */
+
+.headline:hover, .midheadline:hover, .subheadline:hover {
+    background: var(--headline-background-color-hover);
+}
