@@ -1,0 +1,40 @@
+:root {
+  --color-accent: #dd5202;
+  --color-main: hsl(206 40% 35% / 1);
+  --color-main-50: hsl(206 40% 35% / .5);
+  --color-main-30: hsl(206 40% 35% / .3);
+  --color-main-10: hsl(206 40% 35% / .1);
+  --color-main-hover: hsl(206 40% 30% / 1);
+  --color-main-hover-30: hsl(206 40% 30% / .3);
+  --color-main-active: hsl(206 40% 25% / 1);
+  --color-main-active-30: hsl(206 40% 25% / .3);
+  --color-background: #1f1f1f ;/*#dcdcdc*/
+  --color-menu: #0e0e0e;/*#fff*/
+  --color-text-secondary: #b6b6b6;
+  --color-text-primary: #e1e1e1;
+  --color-text-hint: #979797;
+  --color-text-disabled: #727272;
+  --color-border: #1b1b1b;
+  
+  --img: url(https://images.wallpaperscraft.ru/image/provoda_stolby_fonari_141385_3840x2160.jpg);
+  
+  --font-main: 'Comfortaa', cursive;
+  --font-alt: 'Comfortaa', cursive;
+  --font-code: 'Comfortaa', cursive;
+  
+  --border-width: 2px;
+  --br: 4px;
+  --top-menu-height: 50px;
+  --link-color: var(--color-main);
+  --link-hover-color: var(--color-main-hover);
+  --link-active-color: var(--color-main-active);
+  --link-border-color: var(--color-main-30);
+  --link-border-hover-color: var(--color-main-hover-30);
+  --link-border-active-color: --color-main-active-30;
+  --headline-color: var(--color-main);
+  --headline-background-color: var(--color-menu);
+  --headline-background-color-hover: var(--color-main-10);
+  --headline-border-color: var(--color-border);
+  --headline-arrow-color: #9da2a8;
+  
+}
