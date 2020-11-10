@@ -1,0 +1,118 @@
+/* header */
+
+/* Закрепление верхнего меню */
+.l-top_menu-v2 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.l-page {
+  margin-top: 50px;
+}
+.b-comments-notifier {
+  top: 50px !important;
+}
+
+.l-top_menu-v2 .logo-container .logo {
+    display: none;
+}
+
+.l-top_menu-v2 .logo-container .glyph {
+    margin-right: 0;
+}
+
+.l-top_menu-v2 .logo-container {
+    margin-right: 8px;
+    padding: 0px 9px;
+}
+
+.l-top_menu-v2 {
+    box-shadow: 0 3px 12px 2px rgba(0, 0, 0, .2);
+}
+
+.l-top_menu-v2, .l-top_menu-v2 .menu-dropdown>span {
+    background: var(--color-main);
+}
+
+.l-top_menu-v2 .menu-dropdown.active>span, .l-top_menu-v2 .menu-dropdown>span:focus, .l-top_menu-v2 .menu-dropdown>span a:hover {
+    background: var(--color-main-hover);
+}
+
+/* Выпадающее меню с новыми эффектами */
+.l-top_menu-v2 .menu-dropdown .submenu {
+    height: 0;
+    transition: height .75s linear;
+    pointer-events: none;
+}
+.l-top_menu-v2 .menu-dropdown.active:hover .submenu {
+    height: 651px;
+    pointer-events: auto;
+}
+.l-top_menu-v2 .menu-dropdown.profile.active:hover .submenu {
+    height: 403px;
+    pointer-events: auto;
+}
+
+.l-top_menu-v2 .submenu {
+    background: var(--color-menu);
+    color: var(--color-main);
+    border: 1px solid var(--color-main-hover);
+    border-top: none;
+    border-bottom-left-radius: var(--br);
+    border-bottom-right-radius: var(--br);
+    box-shadow: 0 3px 12px 2px rgba(0, 0, 0, .2);
+}
+
+.l-top_menu-v2 .submenu>a {
+    color: var(--color-main);
+    transition: .75s;
+}
+
+.l-top_menu-v2 .submenu>a:hover {
+    color: var(--color-menu);
+    background: var(--color-main);
+    border-left: 5px solid var(--color-menu);
+}
+
+
+.l-top_menu-v2 .global-search .search-results {
+    background-color: var(--color-menu);
+    top: calc(var(--top-menu-height) - 10px);
+    height: 219px;
+    border-bottom-left-radius: var(--br);
+    border-bottom-right-radius: var(--br);
+}
+
+.l-top_menu-v2 .global-search .search-results .nothing_found.active, .l-top_menu-v2 .global-search .search-results .nothing_found:focus, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus, .l-top_menu-v2 .global-search .search-results .search-mode.active, .l-top_menu-v2 .global-search .search-results .search-mode:focus {
+    background: var(--color-main);
+    border-top-color: var(--color-main);
+    color: var(--color-menu);
+}
+
+.l-top_menu-v2 .global-search .search-results .nothing_found.active+.b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .nothing_found.active+.search-mode, .l-top_menu-v2 .global-search .search-results .nothing_found:focus+.b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .nothing_found:focus+.search-mode, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active+.b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active+.search-mode, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus+.b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus+.search-mode, .l-top_menu-v2 .global-search .search-results .search-mode.active+.b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .search-mode.active+.search-mode, .l-top_menu-v2 .global-search .search-results .search-mode:focus+.b-db_entry-variant-list_item, .l-top_menu-v2 .global-search .search-results .search-mode:focus+.search-mode {
+    border-top-color: var(--color-main);
+}
+
+.l-top_menu-v2 .global-search .search-results .search-mode:hover {
+    background: var(--color-main-50);
+}
+
+.l-top_menu-v2 .global-search .search-results .nothing_found.active:before, .l-top_menu-v2 .global-search .search-results .nothing_found:focus:before, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active:before, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus:before, .l-top_menu-v2 .global-search .search-results .search-mode.active:before, .l-top_menu-v2 .global-search .search-results .search-mode:focus:before {
+    background: var(--color-menu);
+}
+
+.l-top_menu-v2 .global-search input {
+    -webkit-border-radius: var(--br);
+    border-radius: var(--br);
+    
+}
+
+.l-top_menu-v2 .menu-icon:hover {
+    background-color: var(--color-main-hover);
+}
+
+.l-top_menu-v2 .menu-icon:focus {
+    background-color: var(--color-main-active);
+}
+/* header end*/
