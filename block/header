@@ -79,10 +79,15 @@
 .l-top_menu-v2 .global-search .search-results {
     background-color: var(--color-menu);
     top: calc(var(--top-menu-height) - 10px);
-    height: 219px;
+    min-height: 219px;
     border-bottom-left-radius: var(--br);
     border-bottom-right-radius: var(--br);
 }
+
+.l-top_menu-v2 .global-search .search-results.is-overflowed-above:before, .l-top_menu-v2 .global-search .search-results.is-overflowed-below:after {
+    display: none;
+}
+
 
 .l-top_menu-v2 .global-search .search-results .nothing_found.active, .l-top_menu-v2 .global-search .search-results .nothing_found:focus, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item.active, .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus, .l-top_menu-v2 .global-search .search-results .search-mode.active, .l-top_menu-v2 .global-search .search-results .search-mode:focus {
     background: var(--color-main);
