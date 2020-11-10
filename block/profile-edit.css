@@ -1,0 +1,107 @@
+/*=== PROFILES_EDIT ===*/
+.cc-2.block.b-edit_styles .c-column:last-child {
+    margin-right: 0;
+    display: none !important;
+}
+
+.cc-2.block.b-edit_styles .c-column:first-child {
+    margin-bottom: 20px;
+    line-height: 1.65;
+    position: relative;
+    float: left;
+    margin-right: 0;
+    position: relative;
+    width: 100%;
+}
+
+.b-edit_styles .edit_style .style_css .editor-expand.active, .b-edit_styles .edit_style .style_css .editor-collapse.active, .b-edit_styles .new_style .style_css .editor-expand.active, .b-edit_styles .new_style .style_css .editor-collapse.active {
+    display:none;
+}
+
+.b-edit_styles .edit_style .style_css label, .b-edit_styles .new_style .style_css label {
+    float: left;
+    margin-top: 15px;
+    background-color: var(--color-background);
+    padding: 2.5px 2.5px;
+    border-top-left-radius: var(--br);
+    border-top-right-radius: var(--br);
+}
+
+#profiles_edit .block.is-own-profile .b-options-floated {
+    font-size: 11px;
+    line-height: 12px;
+    position: absolute;
+    right: 0px;
+    top: -20px;
+    z-index: 1;
+    margin-top: 0 !important;
+}
+
+.b-options-floated {
+    font-size: 11px;
+    line-height: 12px;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    z-index: 1;
+    margin-top: 0 !important;
+}
+
+
+
+
+
+/* кнопки настроек*/
+.b-options-floated {
+    font-size: 11px;
+    line-height: 12px;
+    position: absolute;
+    right: 0px;
+    top: -20px;
+    z-index: 1;
+    margin-top: 0 !important;
+}
+
+.b-options-floated a:after, .b-options-floated .link:after{
+    display: none;
+}
+
+.b-options-floated a, .b-options-floated .link {
+    color: var(--link-color);
+    background-color: var(--color-background);
+    padding: 5px 6px;
+    margin-left: 5px;
+    border-radius: var(--br);
+}
+
+.b-options-floated .selected {
+    color: var(--color-menu);
+    background-color: var(--color-main);
+}
+/* кнопки настроек*/
+
+
+
+
+/* редизайн блокнота*/
+.cm-s-solarized.cm-s-light {
+    background-color: var(--color-background);
+    color: var(--color-text-secondary);
+    text-shadow: var(--color-menu) 0 1px;
+    border-radius: var(--br);
+    border-top-left-radius: 0;
+}
+
+.b-edit_styles .edit_style .style_css .CodeMirror, .b-edit_styles .new_style .style_css .CodeMirror {
+    border: 0;
+}
+
+.CodeMirror-gutter{
+    background-color: var(--color-background);
+    border-right: 1px solid var(--color-menu);
+}
+
+.cm-s-solarized.cm-s-light div.CodeMirror-selected {
+    background: var(--color-main-10);
+}
+/* редизайн блокнота*/
