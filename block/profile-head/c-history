@@ -15,19 +15,25 @@
 }
 
     .b-block_list {
-        float: left;
-        width: 100%;
-        grid-area: list;
-    }
+    float: left;
+    width: 100%;
+    grid-area: list;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+}
 
         .p-profiles .profile-head .c-history .entry {
             border: 1px solid var(--color-background) !important;
             border-radius: var(--br);
-            width: 32%;
-            display: inline-block;
-            margin-right: 2%;
+            width: 100%;
+            overflow: hidden;
             padding-top: 7px !important;
             margin-bottom: 0px !important;
+        }
+
+        .p-profiles .profile-head .c-history .entry:first-child {
+            margin-top: 0px;
         }
 
         .p-profiles .profile-head .c-history .entry:hover {
