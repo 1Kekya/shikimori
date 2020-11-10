@@ -1,0 +1,14 @@
+@import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/block/profile-head/c-brief.css);
+@import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/block/profile-head/c-info.css);
+@import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/block/profile-head/c-history.css);
+
+.profile-head {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 84px 176px;
+    grid-gap: 20px;
+    grid-template-areas:
+        'x3'
+        'brief'
+        'info';
+}
