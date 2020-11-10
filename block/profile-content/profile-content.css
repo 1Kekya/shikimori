@@ -1,0 +1,16 @@
+.block.achievements,
+#profiles_show .block:last-child,
+.about.block {
+    margin: 0;
+    padding: 20px;
+  	border-radius: var(--br);
+  	box-shadow: 0 0 3px 0px #00000080;
+    background-color: var(--color-menu);
+    margin-bottom: 20px;
+}
+
+
+@import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/cc-2.css);
+@import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/achievements.css);
+@import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/about.css);
+@import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/block:last-child.css);
