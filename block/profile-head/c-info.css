@@ -1,0 +1,73 @@
+.p-profiles .profile-head .c-info {
+	    grid-area: info;
+        padding: 20px;
+        border-radius: var(--br);
+        box-shadow: 0 0 3px 0px #00000080;
+        background-color: var(--color-menu);
+	}
+
+		/*графики*/
+    /*1 цвет графика*/
+    .b-stats_bar.anime .bar .first,
+		.b-stats_bar.manga .bar .first {
+		    background-color: var(--color-main-hover) !important;
+		}
+    
+    /*2 цвет графика*/
+    .b-stats_bar.anime .bar .second,
+		.b-stats_bar.manga .bar .second {
+		    background-color: var(--color-main) !important;
+		}		
+    
+    /*3 цвет графика*/
+    .b-stats_bar .bar .third {
+        background: var(--color-border);
+    }
+    
+	  /*Высоты графиков*/
+		.b-stats_bar .bar {
+    		height: 10px;
+        line-height: 10px;
+		}
+    
+    /*спрятанные цифры*/
+		.b-stats_bar .bar .first, .b-stats_bar .bar .second, .b-stats_bar .bar .third {
+		    color: transparent;
+		}
+
+    .b-stats_bar .stat_names .stat_name:after, .b-stats_bar .stat_names .stat_name .size:before, .b-stats_bar .stat_names .stat_name .size:after{
+        display: none; 
+    }
+    
+    /*Настройка кнопок под графиками*/
+    .b-stats_bar .stat_names .stat_name {
+        display: inline-block;
+        border: 2px solid var(--color-main-10);
+        margin-right: 5px;
+        margin-top: 7px;
+        padding: 0 5px;
+        border-radius: var(--br);
+        transition: .2s;
+    }
+
+    .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar {
+        margin-bottom: 7px;
+    }
+    
+    /*Настройка цвета кнопок под графиками*/
+    .b-stats_bar .stat_name[data-type="planned"]:hover, .b-stats_bar .stat_name[data-type="watching,rewatching"]:hover{
+        border-color: var(--color-main);
+    }
+
+    .b-stats_bar .stat_name[data-type="completed"]:hover{
+        border-color: var(--color-main-hover);
+    }
+
+    .b-stats_bar .stat_name[data-type="on_hold"]:hover, .b-stats_bar .stat_name[data-type="dropped"]:hover{
+        border-color: var(--color-border);
+    }
+
+/*Активность на сайте*/
+.p-profiles .profile-head .c-info .c-additionals {
+    margin-bottom: 0;
+}
