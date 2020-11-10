@@ -1,0 +1,10 @@
+/* infa */
+.p-profiles-show .about .item-edit:before, .p-profiles-show .about .item-edit:after {
+    margin-right: 20px;
+    color: var(--color-text-hint);
+}
+
+.cc-7>.c-column, .cc-7>.c-column:last-child {
+    margin-bottom: 0 !important;
+}
+/* infa */
