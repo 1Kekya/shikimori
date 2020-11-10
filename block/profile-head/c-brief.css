@@ -1,0 +1,60 @@
+.p-profiles .profile-head .c-brief {
+	    margin-bottom: 0;
+	    display: flex;
+	    padding: 12px 0;
+	    text-align: left;
+	    height: 84px;
+	    grid-area: brief;
+	    padding: 15px;
+	    border-radius: var(--br);
+	    box-shadow: 0 0 3px 0px #00000080;
+        background-color: var(--color-menu);
+	}
+    
+
+  .p-profiles .profile-head .c-brief header {
+      margin-bottom: 0px;
+  }
+  
+  .p-profiles .profile-head .c-brief .avatar {
+	      flex-shrink: 0;
+		    align-self: flex-end;
+        margin: 0px 20px 0px 0;
+	}
+
+			.p-profiles .profile-head .c-brief .avatar img {
+	    	    box-shadow: 0 0 3px 0px #00000080;
+			}
+
+
+
+/*анимация*/
+      /*кнопки*/
+      .p-profiles .profile-head .c-brief .avatar:hover .profile-actions {
+          visibility: visible;
+          top: 0;
+      }
+      .p-profiles .profile-head .c-brief .avatar .profile-actions {
+          margin-top: 5px;
+          text-align: center;
+          visibility: hidden;
+          transition: .5s;
+          position: relative;
+          top: -40px;
+      }
+      /*аватар*/
+      .c-brief .avatar img {
+          position: relative;
+          top: 30px;
+          transition: .5s;
+          z-index: 1;
+      }
+      
+      .c-brief .avatar:hover img {
+          top: 0px;
+      }
+/*анимация конец*/
+
+
+
+
