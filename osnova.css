@@ -42,7 +42,7 @@
   .p-profiles-show .profile-content .cc-2 > .c-right > .block:last-child {
     clear: both;
   }
-}
+
 /* редизайн */
 
 
@@ -835,4 +835,5 @@ body::-webkit-scrollbar-button:vertical:start {
 
 .headline:hover, .midheadline:hover, .subheadline:hover {
     background: var(--headline-background-color-hover);
+}
 }
