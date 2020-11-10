@@ -1,0 +1,18 @@
+.headline>a:before, .midheadline>a:before, .subheadline>a:before {
+    display: none;
+}
+
+.headline>a, .midheadline>a, .subheadline>a {
+    padding-right: 0;
+}
+
+.headline, .midheadline, .subheadline {
+    border: 1px solid var(--headline-border-color);
+    text-align: center;
+    border-radius: var(--br);
+    color: var(--color-main);
+}
+
+.headline:hover, .midheadline:hover, .subheadline:hover {
+    background: var(--headline-background-color-hover);
+}
