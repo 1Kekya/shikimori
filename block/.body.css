@@ -1,4 +1,13 @@
 @import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/block/l-page.css);
+    @import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/block/profile-head/profile-head.css);
+        @import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/block/profile-head/c-brief.css);
+        @import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/block/profile-head/c-info.css);
+        @import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/block/profile-head/c-history.css);
+    @import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/block/profile-content/profile-content.css);
+        @import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/block/profile-content/cc-2.css);
+        @import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/block/profile-content/achievements.css);
+        @import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/block/profile-content/about.css);
+        @import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/block/profile-content/block:last-child.css);
 @import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/block/headline.css);
 @import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/block/profile-edit.css);
 @import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/block/header);
