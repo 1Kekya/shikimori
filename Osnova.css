@@ -59,10 +59,8 @@ body {
     border-radius: var(--br);
 }
 #profiles_show .l-page {
-    margin-top: 250px !important;
+    margin-top: 70px !important;
     padding: 0 !important;
-    border-top-left-radius: var(--br);
-    border-top-right-radius: var(--br);
     background-color: transparent;
 }
 
