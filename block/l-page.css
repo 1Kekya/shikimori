@@ -1,0 +1,14 @@
+@import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/block/profile-head.css);
+@import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/block/profile-content.css);
+
+.l-page {
+    background: var(--color-menu);
+    margin: 70px auto 20px;
+    border-radius: var(--br);
+}
+#profiles_show .l-page {
+    margin-top: 70px !important;
+    padding: 0 !important;
+    background-color: transparent;
+}
+
