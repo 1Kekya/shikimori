@@ -10,7 +10,7 @@
 }
 
 
-@import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/cc-2.css);
-@import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/achievements.css);
-@import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/about.css);
-@import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/block:last-child.css);
+@import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/block/profile-content/cc-2.css);
+@import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/block/profile-content/achievements.css);
+@import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/block/profile-content/about.css);
+@import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/block/profile-content/block:last-child.css);
