@@ -1,5 +1,5 @@
-@import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/block/profile-head.css);
-@import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/block/profile-content.css);
+@import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/block/profile-head/profile-head.css);
+@import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/block/profile-content/profile-content.css);
 
 .l-page {
     background: var(--color-menu);
