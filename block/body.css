@@ -1,0 +1,82 @@
+@import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/block/l-page.css);
+
+/* вставка фона */
+body {
+    min-height: 100%;
+    width: 100vw;
+    width: -moz-available;
+    overflow: auto;
+    overflow: overlay;
+    background-image: none;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    background-position: center center !important;
+    background-attachment: fixed;
+}
+
+body:after {
+    content: '';
+    width: 100vw;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: rgba(var(--color-background), 0.5);
+}
+/* вставка фона */
+
+body {
+    background: var(--color-background);
+}
+/*аватары*/
+.avatar img {
+    border-radius: 50%;
+}
+
+.b-user.avatar img:hover, .b-user.named_avatar img:hover, .b-user.avatar_fixed_margin img:hover {
+    border: 2px solid var(--color-main);
+}
+.b-user.avatar img, .b-user.named_avatar img, .b-user.avatar_fixed_margin img {
+    display: block;
+    line-height: 0;
+    margin: 0px auto;
+    max-width: 100%;
+    border: 2px solid var(--color-menu);
+    transition: .5s;
+}
+
+img {
+    border-radius: var(--br);
+}
+
+.b-shiki_editor .body .editor textarea {
+    background-color: var(--color-menu);
+    border: 1px solid #ddd;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    line-height: 27px;
+    margin: 0;
+    padding: 0 7px;
+    width: 100%;
+    -webkit-appearance: none;
+    line-height: 1.65;
+    max-height: 417px;
+    min-height: 89px;
+    padding: 3px 7px 5px;
+    resize: none;
+    width: 100%;
+    position: relative;
+}
+
+#cutted_covers_1 .image-cutter {
+    max-width: none !important;
+    max-height: none !important;
+    border-radius: var(--br);
+}
