@@ -1,0 +1,66 @@
+.p-profiles .profile-head .c-history.x3 {
+    grid-area: x3;
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: var(--br);
+    box-shadow: 0 0 3px 0px #00000080;
+    background-color: var(--color-menu);
+    margin-bottom: 400px;
+    display: grid;
+    grid-template-columns: auto 40px;
+    grid-column-gap: 20px;
+    grid-template-areas: 'list zag';
+}
+
+    .b-block_list {
+        float: left;
+        width: 100%;
+        grid-area: list;
+    }
+
+        .p-profiles .profile-head .c-history .entry {
+            border: 1px solid var(--color-background) !important;
+            border-radius: var(--br);
+            width: 32%;
+            display: inline-block;
+            margin-right: 2%;
+            padding-top: 7px !important;
+            margin-bottom: 0px !important;
+        }
+
+        .p-profiles .profile-head .c-history .entry:hover {
+            background: var(--headline-background-color-hover);
+        }
+
+        .p-profiles .profile-head .c-history .entry:last-child {
+            margin-right: 0;
+        }
+    
+    
+
+    .m13 {
+        margin: 15px 0 !important;
+        width: 100%;
+        float: right;
+        grid-area: zag;
+        padding: 0;
+    }
+    
+    .m13 a {
+        display: none;
+    }
+    
+    #profiles_show .subheadline.m13:after {
+        content: 'access_time';
+        margin: auto;
+        padding: 0px 0;
+        position: relative;
+        top: 5px;
+        font-size: 27px;
+    }
+
+
+
+
