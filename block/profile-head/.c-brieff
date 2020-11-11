@@ -11,7 +11,6 @@
 	    box-shadow: 0 0 3px 0px #00000080;
         background-color: var(--color-menu);
 	}
-}
 
   .p-profiles .profile-head .c-brief header {
       margin-bottom: 0px;
@@ -22,6 +21,7 @@
 		    align-self: flex-end;
         margin: 0px 20px 0px 0;
 	}
+}
 
 			.p-profiles .profile-head .c-brief .avatar img {
 	    	    box-shadow: 0 0 3px 0px #00000080;
