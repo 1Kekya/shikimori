@@ -1,3 +1,4 @@
+@media only screen and (min-width: 768px){
 .p-profiles .profile-head .c-history.x3 {
     grid-area: x3;
     margin: 0;
@@ -66,7 +67,7 @@
         top: 5px;
         font-size: 27px;
     }
-
+}
 
 
 
