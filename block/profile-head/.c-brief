@@ -28,7 +28,7 @@
 			}
 
 
-
+@media only screen and (min-width: 1024px){
 /*анимация*/
       /*кнопки*/
       .p-profiles .profile-head .c-brief .avatar:hover .profile-actions {
@@ -55,7 +55,7 @@
           top: 0px;
       }
 /*анимация конец*/
-
+}
 
 
 
