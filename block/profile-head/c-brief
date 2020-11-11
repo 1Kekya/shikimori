@@ -1,3 +1,4 @@
+@media only screen and (min-width: 768px){
 .p-profiles .profile-head .c-brief {
 	    margin-bottom: 0;
 	    display: flex;
@@ -10,7 +11,7 @@
 	    box-shadow: 0 0 3px 0px #00000080;
         background-color: var(--color-menu);
 	}
-    
+}
 
   .p-profiles .profile-head .c-brief header {
       margin-bottom: 0px;
