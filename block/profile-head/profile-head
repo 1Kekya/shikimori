@@ -2,6 +2,7 @@
 @import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/block/profile-head/c-info.css);
 @import url(https://raw.githubusercontent.com/1Kekya/shikimori/main/block/profile-head/c-history.css);
 
+@media screen and (min-width:768px){
 .profile-head {
     display: grid;
     grid-template-columns: 1fr;
@@ -11,4 +12,5 @@
         'x3'
         'brief'
         'info';
+}
 }
